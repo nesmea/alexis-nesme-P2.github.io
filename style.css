@@ -171,14 +171,14 @@ header p {
 }
 
 .formation-gauche {
-    display: flexbox;
+    display: inline-block;
     flex-direction: column;
     flex-wrap: wrap;
     float: left;
 }
 
 .formation-droite {
-    display: flexbox;
+    display: inline-block;
     flex-direction: column;
     flex-wrap: wrap;
     float: right;
