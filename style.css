@@ -1,14 +1,430 @@
-/* jaune : #feca07 
-gris : #404040
-*/
-
-body {
-    width: 100%;
-    height:100%;
+@font-face {
+    font-family: 'amblebold';
+    src: url('fonts/amblebold/amble-bold-webfont.woff2') format('woff2'),
+         url('fonts/amblebold/amble-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-#next-to {
-    width: 32em;
-    height: 100em;
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/ambleregular/amble-regular-webfont.woff2') format('woff2'),
+         url('fonts/ambleregular/amble-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'darker-light';
+    src: url('fonts/darkerlight/darkergrotesque-light-webfont.woff2') format('woff2'),
+         url('fonts/darkerlight/darkergrotesque-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'darker-regular';
+    src: url('fonts/darkerregular/darkergrotesque-regular-webfont.woff2') format('woff2'),
+         url('fonts/darkerlight/darkergrotesque-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ostrich-medium';
+    src: url('fonts/ostrich-medium/ostrichsans-medium-webfont.woff2') format('woff2'),
+         url('fonts/ostrich-medium/ostrichsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ostrich-light';
+    src: url('fonts/ostrich-light/ostrichsans-light-webfont.woff2') format('woff2'),
+         url('fonts/ostrich-light/ostrichsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colab';
+    src: url('fonts/colab/colabthi-webfont.woff2') format('woff2'),
+         url('fonts/colab/colabthi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+}
+
+#aside {
+    padding:0;
+    width: 380px;
+    height: 164em;
     background-color: #feca07;
+    display: block;
+    float: left;
+}
+
+#aside img {
+    width: 160px;
+    height:200px;
+    border-radius: 50%;
+    margin-left: 6em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border: 5px #daaf12a6 solid;
+}
+
+#contact-next-to {
+    height: 50px;
+    width: 380px;
+    background-color: #404040;
+}
+
+#contact-next-to p {
+    text-align: center;
+    padding-top: 0.7em;
+    font-family: 'amblebold';
+    font-size: 20px;
+    color: #feca07
+}
+
+#contact-next-to svg {
+    width:25px;
+    height: 25px;
+    position: absolute;
+    margin-top:0.8em;
+    margin-left: 6.8em;
+    color: #feca07;
+}
+
+#texte-contact p {
+    font-family: 'ambleregular';
+    color: #404040;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align:justify;
+}
+
+#a-propos {
+    height: 50px;
+    width: 380px;
+    background-color: #404040;
+    margin-bottom: 2em;
+}
+
+#a-propos svg {
+    width:25px;
+    height: 25px;
+    position: absolute;
+    margin-top:0.8em;
+    margin-left: 4em;
+    color: #feca07;
+}
+
+#a-propos p {
+    text-align: center;
+    padding-top: 0.7em;
+    font-family: 'amblebold';
+    font-size: 20px;
+    color: #feca07;
+}
+
+#logo-adresse, #logo-tel, #logo-email, #logo-site {
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    padding-bottom:1em;
+    color: #404040;
+    margin-left: 0.5em;
+}
+
+
+#body {
+    display: block;
+    float: inline-start;
+    margin-left:5em;
+}
+
+header {
+    padding-top: 60px;
+}
+
+header h2{
+    font-size: 70px;
+    font-family: 'colab';
+    font-weight: lighter;
+    position:absolute;
+}
+
+header span {
+    color: #feca07;
+    font-size:70px;
+    font-family: 'ambleregular'
+}
+
+header p {
+    margin:0;
+    font-family: 'ambleregular';
+    font-size: 25px;
+    font-weight: bold;
+    color: #404040;
+    margin-top:5.5em;
+}
+
+#sepa-header {
+    height:1px;
+    width: 60px;
+    background-color: #feca07;
+    margin-bottom: 120px;
+}
+
+#logo-formation {
+    width: 35px;
+    height: 35px;
+    position:absolute;
+    padding-bottom:1em;
+    color: #feca07;
+}
+
+#formation-formation {
+    margin-left:2em;
+    font-size: 25px;
+    font-family: 'ambleregular';
+    margin-top:5em;
+}
+
+#sepa-formation {
+    height:2px;
+    width: 85em;
+    background-color: #feca07;
+}
+
+.formation-gauche {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.formation-droite {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+}
+
+table {
+    width: 85em;
+    margin-bottom:4em;
+}
+
+td {
+    width:10em;
+    font-family: 'colab';
+    padding-left:2em;
+}
+
+h3 {
+    font-family: 'colab';
+    font-weight: bold;
+    color: #404040;
+}
+
+h4 {
+    font-size:18px;
+    color: #404040;
+    margin-bottom:6.5em;
+}
+
+.etablissement {
+    font-size:25px;
+    color: #404040;
+    font-weight: bolder;
+}
+
+.titre {
+    font-size:18px;
+    color: #404040;
+    font-weight: bold;
+}
+
+.descript {
+    font-size:20px;
+    color: #404040;
+    text-align:justify;
+}
+
+#point-dip1 {
+    position: absolute;
+    display: block;
+    margin-top: 0.3em;
+}
+
+#point-dip2 {
+    position: absolute;
+    display: block;
+    margin-top: 10.7em;
+}
+
+#point-dip3 {
+    position: absolute;
+    display: block;
+    margin-top: 22.2em;
+}
+
+#point-dip4 {
+    position: absolute;
+    display: block;
+    margin-top: 33.5em;
+}
+
+#point-dip1 p {
+    font-size: 1.5em;
+    color: #feca07;
+    margin-top:18px;
+    margin-left:4px;
+} 
+
+#point-dip2 p, #point-dip3 p, #point-dip4 p{
+    font-size: 30px;
+    color: #feca07;
+}
+
+#cercle-point-dip1 {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    border: 2px #feca07 solid;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-left:2px;
+}
+
+#logo-experience {
+    width: 35px;
+    height: 35px;
+    position:absolute;
+    color: #feca07;
+    margin-top:0.3em;
+}
+
+#experience-experience {
+    margin-left:2em;
+    font-size: 25px;
+    font-family: 'ambleregular';
+    margin-top:3em;
+}
+
+#sepa-exp {
+    height:2px;
+    width: 85em;
+    background-color: #feca07;
+    margin-top:0.5em;
+}
+
+#point-exp1 {
+    position: absolute;
+    display: block;
+    margin-left:2px;
+}
+
+#point-exp2 {
+    position: absolute;
+    display: block;
+    margin-top: 10.7em;
+}
+
+#point-exp3 {
+    position: absolute;
+    display: block;
+    margin-top: 22.2em;
+}
+
+#point-exp4 {
+    position: absolute;
+    display: block;
+    margin-top: 33.5em;
+}
+
+#point-exp5 {
+    position: absolute;
+    display: block;
+    margin-top: 45em;
+}
+
+#point-exp6 {
+    position: absolute;
+    display: block;
+    margin-top: 56.4em;
+}
+
+#point-exp7 {
+    position: absolute;
+    display: block;
+    margin-top: 67.8em;
+}
+
+#point-exp1 p {
+    font-size: 1.5em;
+    color: #feca07;
+    margin-left:2px;
+} 
+
+#point-exp2 p, #point-exp3 p, #point-exp4 p, #point-exp5 p, #point-exp6 p, #point-exp7 p{
+    font-size: 30px;
+    color: #feca07;
+}
+
+#cercle-point-exp1 {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    border: 2px #feca07 solid;
+    border-radius: 50%;
+    margin-top:32px;
+    margin-left:2px;
+}
+
+#loisirs {
+    height: 50px;
+    width: 380px;
+    background-color: #404040;
+    margin-bottom: 1em;
+    margin-top: 94em;
+}
+
+#loisirs p {
+    text-align: center;
+    padding-top: 0.7em;
+    font-family: 'amblebold';
+    font-size: 20px;
+    color: #feca07;
+}
+
+#logo-loisir-ordi, #logo-loisir-travel, #logo-loisir-amis {
+    width: 50px;
+    height: 50px;
+    margin-right:1em;
+    margin-left:1em;
+    margin-top: 1em;
+    border: 3px #404040 solid;
+    border-radius:50%;
+    display: inline-block;
+    color: #404040;
+}
+
+#logo-loisir-ordi {
+    margin-left: 4em;
+}
+
+#logo-loisir {
+    width:25px;
+    height: 25px;
+    position: absolute;
+    margin-top:0.8em;
+    margin-left: 6.8em;
+    color: #feca07;
 }
