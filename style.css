@@ -15,38 +15,6 @@
 }
 
 @font-face {
-    font-family: 'darker-light';
-    src: url('fonts/darkerlight/darkergrotesque-light-webfont.woff2') format('woff2'),
-         url('fonts/darkerlight/darkergrotesque-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'darker-regular';
-    src: url('fonts/darkerregular/darkergrotesque-regular-webfont.woff2') format('woff2'),
-         url('fonts/darkerlight/darkergrotesque-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ostrich-medium';
-    src: url('fonts/ostrich-medium/ostrichsans-medium-webfont.woff2') format('woff2'),
-         url('fonts/ostrich-medium/ostrichsans-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ostrich-light';
-    src: url('fonts/ostrich-light/ostrichsans-light-webfont.woff2') format('woff2'),
-         url('fonts/ostrich-light/ostrichsans-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'colab';
     src: url('fonts/colab/colabthi-webfont.woff2') format('woff2'),
          url('fonts/colab/colabthi-webfont.woff') format('woff');
@@ -175,8 +143,8 @@ header p {
 }
 
 #sepa-header {
-    height:1px;
-    width: 60px;
+    height:2px;
+    width: 75px;
     background-color: #feca07;
     margin-bottom: 120px;
 }
