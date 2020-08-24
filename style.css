@@ -26,11 +26,15 @@ html, body {
     margin: 0;
 }
 
+#header, #header img {
+    display: none;
+}
+
 #aside {
     padding:0;
     width: 380px;
     height: 164em;
-    background-color: #feca07;
+    background-color: #64B5F6;
     display: block;
     float: left;
 }
@@ -42,13 +46,13 @@ html, body {
     margin-left: 6em;
     margin-top: 3em;
     margin-bottom: 2em;
-    border: 5px #daaf12a6 solid;
+    border: 5px #5597ce93 solid;
 }
 
 #contact-next-to {
     height: 50px;
     width: 380px;
-    background-color: #404040;
+    background-color: #212121;
 }
 
 #contact-next-to p {
@@ -56,7 +60,7 @@ html, body {
     padding-top: 0.7em;
     font-family: 'amblebold';
     font-size: 20px;
-    color: #feca07
+    color: #64B5F6;
 }
 
 #contact-next-to svg {
@@ -65,21 +69,30 @@ html, body {
     position: absolute;
     margin-top:0.8em;
     margin-left: 6.8em;
-    color: #feca07;
+    color: #64B5F6;
 }
 
 #texte-contact p {
     font-family: 'ambleregular';
-    color: #404040;
+    color: #212121;
     margin-left: 3em;
     margin-right: 3em;
     text-align:justify;
 }
 
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+a:hover {
+    color: #555555;
+}
+
 #a-propos {
     height: 50px;
     width: 380px;
-    background-color: #404040;
+    background-color: #212121;
     margin-bottom: 2em;
 }
 
@@ -89,7 +102,7 @@ html, body {
     position: absolute;
     margin-top:0.8em;
     margin-left: 4em;
-    color: #feca07;
+    color: #64B5F6;
 }
 
 #a-propos p {
@@ -97,7 +110,15 @@ html, body {
     padding-top: 0.7em;
     font-family: 'amblebold';
     font-size: 20px;
-    color: #feca07;
+    color: #64B5F6;
+}
+
+#texte-a-propos p {
+    font-family: 'ambleregular';
+    color: #212121;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align:justify;
 }
 
 #logo-adresse, #logo-tel, #logo-email, #logo-site {
@@ -105,7 +126,7 @@ html, body {
     height: 30px;
     position:absolute;
     padding-bottom:1em;
-    color: #404040;
+    color: #212121;
     margin-left: 0.5em;
 }
 
@@ -128,7 +149,7 @@ header h2{
 }
 
 header span {
-    color: #feca07;
+    color: #64B5F6;
     font-size:70px;
     font-family: 'ambleregular'
 }
@@ -138,14 +159,14 @@ header p {
     font-family: 'ambleregular';
     font-size: 25px;
     font-weight: bold;
-    color: #404040;
+    color: #212121;
     margin-top:5.5em;
 }
 
 #sepa-header {
     height:2px;
     width: 75px;
-    background-color: #feca07;
+    background-color: #64B5F6;
     margin-bottom: 120px;
 }
 
@@ -154,7 +175,7 @@ header p {
     height: 35px;
     position:absolute;
     padding-bottom:1em;
-    color: #feca07;
+    color: #64B5F6;
 }
 
 #formation-formation {
@@ -167,21 +188,17 @@ header p {
 #sepa-formation {
     height:2px;
     width: 85em;
-    background-color: #feca07;
+    background-color: #64B5F6;
 }
 
 .formation-gauche {
     display: inline-block;
     flex-direction: column;
-    flex-wrap: wrap;
-    float: left;
 }
 
 .formation-droite {
     display: inline-block;
     flex-direction: column;
-    flex-wrap: wrap;
-    float: right;
 }
 
 table {
@@ -198,30 +215,30 @@ td {
 h3 {
     font-family: 'colab';
     font-weight: bold;
-    color: #404040;
+    color: #212121;
 }
 
 h4 {
     font-size:18px;
-    color: #404040;
+    color: #212121;
     margin-bottom:6.5em;
 }
 
 .etablissement {
     font-size:25px;
-    color: #404040;
+    color: #212121;
     font-weight: bolder;
 }
 
 .titre {
     font-size:18px;
-    color: #404040;
+    color: #212121;
     font-weight: bold;
 }
 
 .descript {
     font-size:20px;
-    color: #404040;
+    color: #212121;
     text-align:justify;
 }
 
@@ -251,21 +268,21 @@ h4 {
 
 #point-dip1 p {
     font-size: 1.5em;
-    color: #feca07;
+    color: #64B5F6;
     margin-top:18px;
     margin-left:4px;
 } 
 
 #point-dip2 p, #point-dip3 p, #point-dip4 p{
     font-size: 30px;
-    color: #feca07;
+    color: #64B5F6;
 }
 
 #cercle-point-dip1 {
     position: absolute;
     height: 9px;
     width: 9px;
-    border: 2px #feca07 solid;
+    border: 2px #64B5F6 solid;
     border-radius: 50%;
     margin-top:30px;
     margin-left:2px;
@@ -275,7 +292,7 @@ h4 {
     width: 35px;
     height: 35px;
     position:absolute;
-    color: #feca07;
+    color: #64B5F6;
     margin-top:0.3em;
 }
 
@@ -289,7 +306,7 @@ h4 {
 #sepa-exp {
     height:2px;
     width: 85em;
-    background-color: #feca07;
+    background-color: #64B5F6;
     margin-top:0.5em;
 }
 
@@ -337,20 +354,20 @@ h4 {
 
 #point-exp1 p {
     font-size: 1.5em;
-    color: #feca07;
+    color: #64B5F6;
     margin-left:2px;
 } 
 
 #point-exp2 p, #point-exp3 p, #point-exp4 p, #point-exp5 p, #point-exp6 p, #point-exp7 p{
     font-size: 30px;
-    color: #feca07;
+    color: #64B5F6;
 }
 
 #cercle-point-exp1 {
     position: absolute;
     height: 9px;
     width: 9px;
-    border: 2px #feca07 solid;
+    border: 2px #64B5F6 solid;
     border-radius: 50%;
     margin-top:32px;
     margin-left:2px;
@@ -359,9 +376,9 @@ h4 {
 #loisirs {
     height: 50px;
     width: 380px;
-    background-color: #404040;
+    background-color: #212121;
     margin-bottom: 1em;
-    margin-top: 94em;
+    margin-top: 80em;
 }
 
 #loisirs p {
@@ -369,7 +386,7 @@ h4 {
     padding-top: 0.7em;
     font-family: 'amblebold';
     font-size: 20px;
-    color: #feca07;
+    color: #64B5F6;
 }
 
 #logo-loisir-ordi, #logo-loisir-travel, #logo-loisir-amis {
@@ -378,10 +395,10 @@ h4 {
     margin-right:1em;
     margin-left:1em;
     margin-top: 1em;
-    border: 3px #404040 solid;
+    border: 3px #212121 solid;
     border-radius:50%;
     display: inline-block;
-    color: #404040;
+    color: #212121;
 }
 
 #logo-loisir-ordi {
@@ -394,5 +411,1057 @@ h4 {
     position: absolute;
     margin-top:0.8em;
     margin-left: 6.8em;
-    color: #feca07;
+    color: #64B5F6;
+}
+
+
+                                                                                    /*Responsive grand écrans jusqu'à 1650px */
+
+@media (min-width:1650px) and (max-width: 1830px) {
+
+    #sepa-formation, #sepa-exp {
+        width:70em;
+    }
+
+    table {
+        width:70em;
+    }
+
+    #aside {
+        height: 165.2em;
+    }
+
+    #loisirs {
+        margin-top: 81em;
+    }
+}
+
+
+                                                                                            /*Responsive 1650px -> 1400px */
+
+@media (min-width: 1400px) and (max-width:1650px) {
+
+    #sepa-formation, #sepa-exp {
+        width:55em;
+    }
+    
+    table {
+        width:55em;
+    }
+
+    #cercle-point-dip1 {
+        margin-top:38px;
+    }
+
+    #point-dip1 {
+        margin-top:0.8em;
+    }
+
+    #point-dip2 {
+        margin-top:11.8em;
+    }
+
+    #point-dip3 {
+        margin-top:23.2em;
+    }
+
+    #point-dip4 {
+        margin-top:34.7em;
+    }
+
+    #point-exp3 {
+        margin-top:22.7em;
+    }
+
+    #point-exp4{
+        margin-top:35.3em;
+    }
+
+    #point-exp5 {
+        margin-top:47.3em;
+    }
+
+    #point-exp6 {
+        margin-top: 59.4em;
+    }
+
+    #point-exp7 {
+        margin-top:72.1em;
+    }
+
+    #aside {
+        height:170em;
+    }
+
+    #loisirs {
+        margin-top:86em;
+    }
+}
+
+
+                                                                                            /*Responsive 1400px -> 1250px */
+
+@media (min-width:1250px) and (max-width:1400px) {
+
+    #sepa-formation, #sepa-exp {
+        width:45em;
+    }
+    
+    table {
+        width:45em;
+    }
+
+    .descript {
+        font-size:17px;
+    }
+
+    #cercle-point-dip1 {
+        margin-top:38px;
+    }
+
+    #point-dip1 {
+        margin-top:0.8em;
+    }
+
+    #point-dip2 {
+        margin-top:12em;
+    }
+
+    #point-dip3 {
+        margin-top:23.5em;
+    }
+
+    #point-dip4 {
+        margin-top:35em;
+    }
+
+    #point-exp3 {
+        margin-top:22.2em;
+    }
+
+    #point-exp4{
+        margin-top:34.8em;
+    }
+
+    #point-exp5 {
+        margin-top:47.1em;
+    }
+
+    #point-exp6 {
+        margin-top: 58.8em;
+    }
+
+    #point-exp7 {
+        margin-top:71.2em;
+    }
+
+    #aside {
+        height:170em;
+    }
+
+    #loisirs {
+        margin-top:86em;
+    }
+}
+
+                                                                                            /*Responsive 1250px -> 1050px */
+
+@media (min-width:1050px) and (max-width:1250px) {
+
+    #aside {
+        width: 100%;
+        height:30em;
+        float:none;
+    }
+    
+    #aside img {
+        display: none;
+    }
+
+    #contact-next-to {
+        width: 100%
+    }
+
+    #contact-next-to svg {
+        margin-left:27.5em;
+    }
+
+    #texte-contact p {
+        display: inline-grid;
+        justify-content: center;
+        width:20em;
+        margin-left:8em;
+    }
+
+    #logo-adresse, #logo-tel, #logo-email, #logo-site {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        margin-top: 1.2em;
+        color: #212121;
+        margin-left: 8em;
+    }
+
+    #logo-email {
+        display: flex;
+    }
+
+    #a-propos {
+        width:100%;
+    }
+
+    #a-propos svg {
+        margin-left:25em;
+    }
+
+    header {
+        display: none;
+    }
+
+    #header {
+        display: block;
+        margin-left: 20em;
+        margin-top:5em;
+    }
+    
+    #header h2{
+        font-size: 70px;
+        font-family: 'colab';
+        font-weight: lighter;
+        margin:0;
+    }
+    
+    #header span {
+        color: #212121;
+        font-size:70px;
+        font-family: 'ambleregular'
+    }
+    
+    #header p {
+        margin:0;
+        font-family: 'ambleregular';
+        font-size: 25px;
+        font-weight: bold;
+        color: #212121;
+    }
+
+    #header img {
+    display: block;
+    width: 160px;
+    height:200px;
+    border-radius: 50%;
+    margin-left: 6em;
+    margin-bottom: 2em;
+    border: 5px #5597ce93 solid;
+    }
+
+    #formation-formation {
+        margin-top: 2em;
+    }
+
+    #logo-formation {
+        margin-top:3em;
+    }
+
+    table {
+        width:55em;
+    }
+
+    #sepa-formation, #sepa-exp {
+        width:55em;
+    }
+
+    #loisirs {
+        margin-top:150em;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #logo-loisir {
+        margin-left:28em;
+    }
+
+    #logo-loisir-ordi {
+        margin-left:25em;
+    }
+
+    #fond-loisir {
+        width: 100%;
+        height: 6em;
+        background-color:#64B5F6;
+    }
+
+    .descript {
+        font-size:18px;
+    }
+
+    #cercle-point-dip1 {
+        margin-top:31px;
+    }
+
+    #point-exp3 {
+        margin-top:22.5em;
+    }
+
+    #point-exp4{
+        margin-top: 34.5em;
+    }
+
+    #point-exp5 {
+        margin-top: 46.2em;
+    }
+
+    #point-exp6 {
+        margin-top: 57.9em;
+    }
+
+    #point-exp7 {
+        margin-top:69.9em;
+    }
+}
+
+
+                                                                                            /*Responsive 1050px -> 900px */
+
+@media (min-width:900px) and (max-width: 1050px) {
+
+    #aside {
+        width: 100%;
+        height:30em;
+        float:none;
+    }
+    
+    #aside img {
+        display: none;
+    }
+
+    #contact-next-to {
+        width: 100%
+    }
+
+    #contact-next-to svg {
+        margin-left:23em;
+    }
+
+    #texte-contact p {
+        display: inline-grid;
+        justify-content: center;
+        width:15em;
+        margin-left:8em;
+    }
+
+    #logo-adresse, #logo-tel, #logo-email, #logo-site {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        margin-top: 1.2em;
+        color: #212121;
+        margin-left: 6em;
+    }
+
+    #logo-email {
+        display: flex;
+    }
+
+    #a-propos {
+        width:100%;
+    }
+
+    #a-propos svg {
+        margin-left:20em;
+    }
+
+    header {
+        display: none;
+    }
+
+    #header {
+        display: block;
+        margin-left: 15em;
+        margin-top:5em;
+    }
+    
+    #header h2{
+        font-size: 70px;
+        font-family: 'colab';
+        font-weight: lighter;
+        margin:0;
+    }
+    
+    #header span {
+        color: #212121;
+        font-size:70px;
+        font-family: 'ambleregular'
+    }
+    
+    #header p {
+        margin:0;
+        font-family: 'ambleregular';
+        font-size: 25px;
+        font-weight: bold;
+        color: #212121;
+    }
+
+    #header img {
+        display: block;
+        width: 160px;
+        height:200px;
+        border-radius: 50%;
+        margin-left: 6em;
+        margin-bottom: 2em;
+        border: 5px #5597ce93 solid;
+    }
+
+    #formation-formation {
+        margin-top: 2em;
+    }
+
+    #logo-formation {
+        margin-top:3em;
+    }
+
+    table {
+        width:45em;
+    }
+
+    #sepa-formation, #sepa-exp {
+        width:45em;
+    }
+
+    #loisirs {
+        margin-top:150em;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #logo-loisir {
+        margin-left:23em;
+    }
+
+    #logo-loisir-ordi {
+        margin-left:20em;
+    }
+
+    #fond-loisir {
+        width: 100%;
+        height: 6em;
+        background-color:#64B5F6;
+    }
+
+    .descript {
+        font-size:18px;
+    }
+
+    #cercle-point-dip1 {
+        margin-top:44px;
+    }
+
+    #point-dip1 {
+        margin-top:1.1em;
+    }
+
+    #point-dip2 {
+        margin-top: 12.5em;
+    }
+
+    #point-dip3 {
+        margin-top:24em;
+    }
+
+    #point-dip4 {
+        margin-top:35.4em;
+    }
+
+    #point-exp3 {
+        margin-top:22.5em;
+    }
+
+    #point-exp4{
+        margin-top: 35.3em;
+    }
+
+    #point-exp5 {
+        margin-top: 47.8em;
+    }
+
+    #point-exp6 {
+        margin-top: 59.5em;
+    }
+
+    #point-exp7 {
+        margin-top:72.2em;
+    }
+
+}
+
+
+                                                                                            /*Responsive 900px -> 650px */
+
+@media (min-width:650px) and (max-width: 900px) {
+
+    #aside {
+        width: 100%;
+        height:37em;
+        float:none;
+    }
+    
+    #aside img {
+        display: none;
+    }
+
+    #contact-next-to {
+        width: 100%
+    }
+
+    #contact-next-to svg {
+        margin-left:15em;
+    }
+
+    #texte-contact p {
+        display: inline-grid;
+        justify-content: center;
+        width:13em;
+        margin-left:4em;
+    }
+
+    #logo-adresse, #logo-tel, #logo-email, #logo-site {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        margin-top: 1.2em;
+        color: #212121;
+        margin-left: 1em;
+    }
+
+    #logo-email {
+        display: flex;
+    }
+
+    #a-propos {
+        width:100%;
+    }
+
+    #a-propos svg {
+        margin-left:12em;
+    }
+
+    header {
+        display: none;
+    }
+
+    #header {
+        display: block;
+        margin-left: 7.5em;
+        margin-top:5em;
+    }
+    
+    #header h2{
+        font-size: 70px;
+        font-family: 'colab';
+        font-weight: lighter;
+        margin:0;
+    }
+    
+    #header span {
+        color: #212121;
+        font-size:70px;
+        font-family: 'ambleregular'
+    }
+    
+    #header p {
+        margin:0;
+        font-family: 'ambleregular';
+        font-size: 25px;
+        font-weight: bold;
+        color: #212121;
+    }
+
+    #header img {
+        display: block;
+        width: 160px;
+        height:200px;
+        border-radius: 50%;
+        margin-left: 6em;
+        margin-bottom: 2em;
+        border: 5px #5597ce93 solid;
+    }
+
+    #formation-formation {
+        margin-top: 2em;
+    }
+
+    #logo-formation {
+        margin-top:3em;
+    }
+
+    table {
+        width:30em;
+    }
+
+    #sepa-formation, #sepa-exp {
+        width:30em;
+    }
+
+    #loisirs {
+        margin-top:140em;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #logo-loisir {
+        margin-left:15.5em;
+    }
+
+    #logo-loisir-ordi {
+        margin-left:13em;
+    }
+
+    #fond-loisir {
+        width: 100%;
+        height: 6em;
+        background-color:#64B5F6;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .descript {
+        font-size:15px;
+    }
+
+    .etablissement {
+        font-size:20px;
+    }
+
+    .titre {
+        font-size: 15px;
+    }
+
+    #point-dip1 {
+        margin-top: 1.2em;
+    }
+
+    #cercle-point-dip1 {
+        margin-top: 45px;
+    }
+
+    #point-dip2 {
+        margin-top: 12em;
+    }
+
+    #point-dip3 {
+        margin-top: 22.8em;
+    }
+
+    #point-exp2 {
+        margin-top: 8.6em;
+    }
+
+    #point-exp3 {
+        margin-top: 19em;
+    }
+
+    #point-exp4 {
+        margin-top: 30.5em;
+    }
+
+    #point-exp5 {
+        margin-top:41.3em;
+    }
+
+    #point-exp6 {
+        margin-top: 51.7em;
+    }
+
+    #point-exp7 {
+        margin-top:63em;
+    }
+}
+
+                                                                                            /*Responsive 900px -> 650px */
+
+@media (min-width:480px) and (max-width: 650px) {
+
+    #aside {
+        width: 100%;
+        height:49em;
+        float:none;
+    }
+    
+    #aside img {
+        display: none;
+    }
+
+    #contact-next-to {
+        width: 100%
+    }
+
+    #contact-next-to svg {
+        margin-left:10em;
+    }
+
+    #texte-contact p {
+        display: block;
+        margin-left:10em;
+    }
+
+    #logo-adresse, #logo-tel, #logo-email, #logo-site {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        margin-top: 0.5em;
+        color: #212121;
+        margin-left: 7em;
+    }
+
+    #logo-email {
+        display: flex;
+    }
+
+    #a-propos {
+        width:100%;
+    }
+
+    #a-propos svg {
+        margin-left:7em;
+    }
+
+    header {
+        display: none;
+    }
+
+    #header {
+        display: block;
+        margin-left: 7.5em;
+        margin-top:5em;
+    }
+    
+    #header h2{
+        font-size: 70px;
+        font-family: 'colab';
+        font-weight: lighter;
+        margin:0;
+    }
+    
+    #header span {
+        color: #212121;
+        font-size:70px;
+        font-family: 'ambleregular'
+    }
+    
+    #header p {
+        margin:0;
+        font-family: 'ambleregular';
+        font-size: 25px;
+        font-weight: bold;
+        color: #212121;
+    }
+
+    #header img {
+        display: block;
+        width: 160px;
+        height:200px;
+        border-radius: 50%;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        border: 5px #5597ce93 solid;
+    }
+
+    #body {
+        margin-left: 2em;
+    }
+
+    #formation-formation {
+        margin-top: 2em;
+    }
+
+    #logo-formation {
+        margin-top:3em;
+    }
+
+    table {
+        width:25em;
+    }
+
+    #sepa-formation, #sepa-exp {
+        width:25em;
+    }
+
+    #loisirs {
+        margin-top:160em;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #logo-loisir {
+        margin-left:10em;
+    }
+
+    #logo-loisir-ordi {
+        margin-left:7em;
+    }
+
+    #fond-loisir {
+        width: 100%;
+        height: 6em;
+        background-color:#64B5F6;
+    }
+
+    h4 {
+        font-size: 15px;
+        margin-bottom: 7em;
+    }
+
+    .descript {
+        font-size:15px;
+    }
+
+    .etablissement {
+        font-size:20px;
+    }
+
+    .titre {
+        font-size: 15px;
+    }
+
+    #cercle-point-dip1 {
+        margin-top: 45px;
+    }
+
+    #point-dip1 {
+        margin-top: 1.2em;
+    }
+
+    #point-exp2 {
+        margin-top: 12.6em;
+    }
+
+    #point-dip3 {
+        margin-top: 24.4em;
+    }
+
+    #point-dip4 {
+        margin-top: 36.6em;
+    }
+
+    #cercle-point-exp1 {
+        margin-top: 37px;
+    }
+
+    #point-exp1 {
+        margin-top: 0.3em;
+    }
+
+    #point-exp2 {
+        margin-top: 10.2em;
+    }
+
+    #point-exp3 {
+        margin-top: 21em;
+    }
+
+    #point-exp4 {
+        margin-top: 34.8em;
+    }
+
+    #point-exp5 {
+        margin-top: 47.3em;
+    }
+
+    #point-exp6 {
+        margin-top: 58.8em;
+    }
+
+    #point-exp7 {
+        margin-top: 73em;
+    }
+}
+
+                                                                                /* Responsive < 480px */
+
+@media screen and (max-width: 480px) {
+
+    #aside {
+        width: 100%;
+        height:52em;
+        float:none;
+    }
+    
+    #aside img {
+        display: none;
+    }
+
+    #contact-next-to {
+        width: 100%
+    }
+
+    #contact-next-to svg {
+        margin-left:8.5em;
+    }
+
+    #texte-contact p {
+        display: block;
+        width:13em;
+        margin-left:9em;
+    }
+
+    #logo-adresse, #logo-tel, #logo-email, #logo-site {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        margin-top: 0.5em;
+        color: #212121;
+        margin-left: 5.5em;
+    }
+
+    #logo-email {
+        display: flex;
+    }
+
+    #a-propos {
+        width:100%;
+    }
+
+    #a-propos svg {
+        margin-left:6em;
+    }
+
+    header {
+        display: none;
+    }
+
+    #header {
+        display: block;
+        margin-left: 4.5em;
+        margin-top:5em;
+    }
+    
+    #header h2{
+        font-size: 70px;
+        font-family: 'colab';
+        font-weight: lighter;
+        margin:0;
+    }
+    
+    #header span {
+        color: #212121;
+        font-size:70px;
+        font-family: 'ambleregular'
+    }
+    
+    #header p {
+        margin:0;
+        font-family: 'ambleregular';
+        font-size: 25px;
+        font-weight: bold;
+        color: #212121;
+    }
+
+    #header img {
+        display: block;
+        width: 160px;
+        height:200px;
+        border-radius: 50%;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        border: 5px #5597ce93 solid;
+    }
+
+    #body {
+        margin-left: 2em;
+    }
+
+    #formation-formation {
+        margin-top: 2em;
+    }
+
+    #logo-formation {
+        margin-top:3em;
+    }
+
+    table {
+        width:21em;
+    }
+
+    #sepa-formation, #sepa-exp {
+        width:21em;
+    }
+
+    #loisirs {
+        margin-top:168em;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #logo-loisir {
+        margin-left:9em;
+    }
+
+    #logo-loisir-ordi {
+        margin-left:6em;
+    }
+
+    #fond-loisir {
+        width: 100%;
+        height: 6em;
+        background-color:#64B5F6;
+    }
+
+    h4 {
+        font-size: 15px;
+        margin-bottom: 8.5em;
+    }
+
+    .descript {
+        font-size:15px;
+    }
+
+    .etablissement {
+        font-size:20px;
+    }
+
+    .titre {
+        font-size: 15px;
+    }
+
+    #cercle-point-dip1 {
+        margin-top: 55px;
+    }
+
+    #point-dip1 {
+        margin-top: 1.8em;
+    }
+
+    #point-dip2 {
+        margin-top: 15em;
+    }
+
+    #point-dip3 {
+        margin-top: 27.5em;
+    }
+
+    #point-dip4 {
+        margin-top: 40.5em;
+    }
+
+    #point-exp3 {
+        margin-top: 22.7em;
+    }
+
+    #point-exp4 {
+        margin-top: 37.5em;
+    }
+
+    #point-exp5{
+        margin-top: 51.5em;
+    }
+
+    #point-exp6 {
+        margin-top: 64.5em;
+    }
+
+    #point-exp7 {
+        margin-top: 79em;
+    }
 }
