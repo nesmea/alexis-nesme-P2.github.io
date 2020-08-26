@@ -163,7 +163,7 @@ header p {
     margin-top:5.5em;
 }
 
-#sepa-header {
+.sepa-header {
     height:2px;
     width: 75px;
     background-color: #64B5F6;
