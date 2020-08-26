@@ -33,7 +33,7 @@ html, body {
 #aside {
     padding:0;
     width: 380px;
-    height: 198em;
+    height: 200em;
     background-color: #64B5F6;
     display: block;
     float: left;
@@ -319,7 +319,7 @@ header p {
     width: 380px;
     background-color: #212121;
     margin-bottom: 1em;
-    margin-top: 114em;
+    margin-top: 115em;
 }
 
 #loisirs p {
@@ -386,11 +386,11 @@ header p {
     } 
     
     #aside {
-        height: 204em;
+        height: 206em;
     }
 
     #loisirs {
-        margin-top: 121em;
+        margin-top: 122em;
     }
 }
 
@@ -410,11 +410,11 @@ header p {
     } 
     
     #aside {
-        height: 225em;
+        height: 227em;
     }
 
     #loisirs {
-        margin-top: 141em;
+        margin-top: 143em;
     }
 }
 
@@ -702,7 +702,7 @@ header p {
     }
 
     #loisirs {
-        margin-top:198em;
+        margin-top:200em;
         width: 100%;
         margin-bottom: 0;
     }
@@ -1005,7 +1005,7 @@ header p {
     }
 
     #loisirs {
-        margin-top:198em;
+        margin-top:200em;
         width: 100%;
         margin-bottom: 0;
     }
@@ -1155,7 +1155,7 @@ header p {
     }
 
     #loisirs {
-        margin-top:194em;
+        margin-top:195em;
         width: 100%;
         margin-bottom: 0;
     }
