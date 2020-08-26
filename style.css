@@ -203,9 +203,7 @@ header p {
 
 .conteneur {
     display: inline-block;
-    justify-content: center;
     width:100%;
-    flex: initial;
 }
 
 .content {
