@@ -58,7 +58,7 @@ body h5 {
 
 #contact-next-to h5 {
     text-align: center;
-    padding-top: 0.7em;
+    padding-top: 0.5em;
     font-family: 'amblebold';
     font-size: 20px;
     color: #64B5F6;
@@ -67,10 +67,8 @@ body h5 {
 #contact-next-to svg {
     width:25px;
     height: 25px;
-    position: absolute;
-    margin-top:0.8em;
-    margin-left: 6.8em;
     color: #64B5F6;
+    padding-right: 0.5em;
 }
 
 #texte-contact h5 {
@@ -96,17 +94,20 @@ a:hover {
     margin-bottom: 2em;
 }
 
+#a-propos svg {
+    left: 70px;
+    padding-right: 0.5em;
+}
+
 #contact-next-to svg, #a-propos svg, #loisirs svg {
     width:25px;
     height: 25px;
-    position: absolute;
     color: #64B5F6;
-    margin: -3px 0px 0px -35px;
 }
 
 #a-propos h5 {
     text-align: center;
-    padding-top: 0.7em;
+    padding-top: 0.5em;
     font-family: 'amblebold';
     font-size: 20px;
     color: #64B5F6;
@@ -123,9 +124,9 @@ a:hover {
 #logo-adresse, #logo-tel, #logo-email, #logo-site {
     width: 30px;
     height: 30px;
-    position:absolute;
+    position: relative;
     color: #212121;
-    margin: 3px 0 0 -40px;
+    left: -3px;
 }
 
 
@@ -171,9 +172,8 @@ header p {
     width: 35px;
     height: 35px;
     position:absolute;
-    padding-bottom:1em;
     color: #64B5F6;
-    margin: -4px 0 0 -45px;
+    left: 18.5em;
 }
 
 #formation-formation {
@@ -232,7 +232,6 @@ header p {
 #point-dip1 {
     position: absolute;
     display: block;
-    margin-top: 0.6em;
 }
 
 #point-dip2, #point-dip3, #point-dip4 {
@@ -241,10 +240,10 @@ header p {
 }
 
 #point-dip1 p {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #64B5F6;
     position: absolute;
-    margin: 7.5px 0px 0px -20px;
+    margin: 16.5px 0px 0px -21.5px;
 } 
 
 #point-dip2 p, #point-dip3 p, #point-dip4 p{
@@ -260,7 +259,7 @@ header p {
     width: 9px;
     border: 2px #64B5F6 solid;
     border-radius: 50%;
-    margin: 24.5px 0px 0px -22px;
+    margin: 25.5px 0px 0px -23px;
 }
 
 #experience-experience {
@@ -279,7 +278,7 @@ header p {
 
 #point-exp1 {
     position: absolute;
-    margin: -6.5px 0px 0px -20px;
+
 }
 
 #point-exp2, #point-exp3, #point-exp4, #point-exp5, #point-exp6, #point-exp7 {
@@ -289,8 +288,9 @@ header p {
 }
 
 #point-exp1 p {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #64B5F6;
+    margin: 16.5px 0px 0px -21.5px;
 } 
 
 #point-exp2 p, #point-exp3 p, #point-exp4 p, #point-exp5 p, #point-exp6 p, #point-exp7 p{
@@ -302,7 +302,7 @@ header p {
     height: 50px;
     width: 380px;
     background-color: #212121;
-    margin: 117em 0 0 0;
+    margin: 115em 0 0 0;
 }
 
 #loisirs p {
@@ -333,9 +333,16 @@ header p {
 #logo-experience, #logo-loisir {
     width:25px;
     height: 25px;
-    position: absolute;
+    position: relative;
     color: #64B5F6;
-    margin: -4px 0 0 -45px;
+}
+
+#logo-experience {
+    left:-0.5em;
+}
+
+#logo-loisir {
+    left: -10px;
 }
 
 
@@ -351,11 +358,15 @@ header p {
     }
 
     #loisirs {
-        margin: 125em 0 0 0;
+        margin: 122em 0 0 0;
     }
 
     #sepa-formation, #sepa-exp {
         width: 61em;
+    }
+
+    #logo-formation {
+        left: 17.5em;
     }
 }
 
@@ -372,7 +383,7 @@ header p {
     }
 
     #loisirs {
-        margin: 135em 0 0 0;
+        margin: 130em 0 0 0;
     }
 }
 
@@ -389,7 +400,7 @@ header p {
     }
 
     #loisirs {
-        margin: 150em 0 0 0;
+        margin: 145em 0 0 0;
     }
 }
 
@@ -405,7 +416,7 @@ header p {
     }
 
     #loisirs {
-        margin: 178em 0 0 0;
+        margin: 172em 0 0 0;
     }
 }
 
@@ -422,7 +433,7 @@ header p {
     }
 
     #loisirs {
-        margin: 210em 0 0 0;
+        margin: 207em 0 0 0;
     }
 
     header h2, header span {
@@ -433,14 +444,14 @@ header p {
         font-size: 20px;
         margin-top: 5.5em;
     }
-
-    #point-dip1 {
-        margin-top:10px;
-    } 
     
     #point-exp1 {
         margin-top:-6.2px;
     }
+
+    #point-exp1 p {
+        margin: 22.5px 0px 0px -21.5px;
+    } 
 }
 
 
@@ -457,7 +468,7 @@ header p {
     }
 
     #loisirs {
-        margin: 223em 0 0 0;
+        margin: 220em 0 0 0;
     }
 
     header p {
@@ -474,7 +485,7 @@ header p {
     
     #aside {
         width: 100%;
-        height: 64em;
+        height: 66em;
     }
 
     #aside img {
@@ -483,6 +494,10 @@ header p {
 
     #contact-next-to, #a-propos {
         width: 100%;
+    }
+
+    #contact-next-to svg {
+        left: 245px;
     }
 
     #texte-contact {
@@ -547,6 +562,15 @@ header p {
         height: 4em;
         padding-bottom: 2em;
     }
+
+    #logo-formation {
+        left: 2em;
+    }
+
+    #logo-experience {
+        left: -0.5em;
+    }
+
 }
 
                                                                                 /* Responsive < 480px */
@@ -640,6 +664,18 @@ header p {
     .descript {
         font-size: 15px;
     }
+
+    #contact-next-to svg {
+        left: 160px;
+    }
+
+    #a-propos svg {
+        left: 120px;
+    }
+
+    #logo-formation {
+        left: 2em;
+    }
 }
 
 
@@ -654,7 +690,7 @@ header p {
 
     #aside {
         width: 100%;
-        height: 70em;
+        height: 72em;
     }
 
     #aside img {
@@ -694,20 +730,30 @@ header p {
 
     header {
         position: absolute;
-        width: 100%;
-        margin: -61em 0px 0px -20px;
+        width: 15em;
+        margin: -60em 0px 0px 72px;
         display: flex;
         justify-content: center;
     }
 
     header span {
         color: white;
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 34px;
+    }
+
+    header p {
+        margin-top: 4.5em;
+        font-size: 15px;
     }
 
     .sepa-header {
         background-color: white;
         position: absolute;
-        margin: 140px 0 0 0;
+        margin: 100px 0 0 0;
     }
 
     #formation-formation {
@@ -720,7 +766,7 @@ header p {
 
     #loisirs {
         width: 100%;
-        margin: 202em 0 0 0;
+        margin: 211em 0 0 0;
     }
 
     #fond-loisir{
@@ -735,5 +781,9 @@ header p {
 
     .descript {
         font-size: 15px;
+    }
+
+    #logo-formation {
+        left: 0.8em;
     }
 }
